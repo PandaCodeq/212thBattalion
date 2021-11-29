@@ -35,7 +35,7 @@ html {
   color: #4ee;
   opacity: 0;
   z-index: 1;
-  text-align: center;
+  text-align: left;
   -webkit-animation: intro 2s ease-out;
   -moz-animation: intro 2s ease-out;
   -ms-animation: intro 2s ease-out;
@@ -95,7 +95,7 @@ html {
 .star-wars-intro .title-content {
   position: absolute;
   top: 100%;
-  animation: scroll 120s linear 4s forwards;
+  animation: scroll 120s linear 5s forwards;
 }
 
 .star-wars-intro .title-content > .content-header {
@@ -248,7 +248,7 @@ html {
 
 @keyframes logo {
   0% {
-    transform: scale(1);
+    transform: scale(3);
     opacity: 1;
   }
   50% {
